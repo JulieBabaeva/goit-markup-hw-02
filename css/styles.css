@@ -99,6 +99,9 @@ p {
   background: #f4f4fd;
 }
 .team-members {
+  display: flex;
+}
+.team-members li {
   border-radius: 0 0 4px 4px;
   padding: 0px 0px 32px;
   width: 264px;
