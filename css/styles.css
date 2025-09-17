@@ -43,10 +43,10 @@ p {
 }
 
 .logo-header {
-  font-family: "Roboto", sans-serif;
+  font-family: "Ralewey", sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
@@ -68,17 +68,18 @@ p {
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-.navigation:hover,
+
+.navigation .studio:hover,
 :focus {
   color: #404bbf;
 }
-
 .mail.tel {
+  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 2%;
-  color: #8e8f99;
+  letter-spacing: 0.02em;
+  color: #434455;
   text-decoration: none;
 }
 .mail.tel:hover,
@@ -109,6 +110,7 @@ p {
 .features {
   width: 1128px;
   height: 104px;
+  display: flex;
 }
 .features-strategy,
 .features-punctuality,
