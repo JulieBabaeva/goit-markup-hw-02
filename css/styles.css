@@ -1,0 +1,107 @@
+body {
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+  font-weight: regular;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 2%;
+  color: #434455;
+}
+h1 {
+  font-weight: bold;
+  size: 56 px;
+  letter-spacing: 2%;
+  line-height: 1.07;
+  text-align: center;
+  color: var(--white);
+}
+
+h2 {
+  font-weight: bold;
+  size: 36 px;
+  letter-spacing: 2%;
+  text-align: center;
+  color: var(--navy-blue);
+}
+
+h3 {
+  font-weight: 500;
+  size: 20 px;
+  letter-spacing: 2%;
+  color: var(--navy-blue);
+}
+p {
+  font-weight: regular;
+  font-size: 16 px;
+  line-height: 1.5;
+  letter-spacing: 4%;
+  color: var(--slate);
+}
+
+.logo {
+  width: 115px;
+  height: 24px;
+}
+
+.header {
+  background: var(--white);
+}
+
+.navigation {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 2%;
+  color: var(--navy-blue);
+}
+
+.address {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 2%;
+  color: var(--slate);
+}
+.hero {
+  background: var(--navy-blue);
+  width: 1440px;
+  height: 600px;
+}
+.hero-button {
+  border-radius: 4px;
+  padding: 16px 32px;
+  width: 169px;
+  height: 56px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  background: var(--iris);
+}
+.features {
+  width: 1128px;
+  height: 104px;
+}
+.features-strategy,
+.features-punctuality,
+.features-diligence,
+.features-technologies {
+  width: 1128px;
+  height: 104px;
+}
+.team {
+  width: 1128px;
+  height: 104px;
+  background: var(--cloud);
+}
+.team-members {
+  border-radius: 0 0 4px 4px;
+  padding: 0px 0px 32px;
+  width: 264px;
+  height: 380px;
+}
+.portfolio {
+  width: 1128px;
+  height: 1134px;
+}
+.footer {
+  width: 1440px;
+  height: 312px;
+  background: var(--navy-blue);
+}
