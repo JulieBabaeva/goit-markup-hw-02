@@ -17,7 +17,7 @@ h1 {
 
 h2 {
   font-weight: 700;
-  size: 36px;
+  font-size: 36px;
   letter-spacing: 2%;
   text-align: center;
   color: #2e2f42;
@@ -25,7 +25,7 @@ h2 {
 
 h3 {
   font-weight: 500;
-  size: 20px;
+  font-size: 20px;
   letter-spacing: 2%;
   color: #2e2f42;
 }
@@ -60,6 +60,7 @@ p {
   line-height: 1.5;
   letter-spacing: 2%;
   color: #8e8f99;
+  text-decoration: none;
 }
 .hero {
   background: #2e2f42;
@@ -109,4 +110,8 @@ p {
   width: 1440px;
   height: 312px;
   background: #2e2f42;
+}
+
+a {
+  text-decoration: none;
 }
