@@ -3,14 +3,14 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 2%;
+  letter-spacing: 0, 02em;
   color: #434455;
   background-color: #ffffff;
 }
 h1 {
   font-weight: 700;
   font-size: 56px;
-  letter-spacing: 2%;
+  letter-spacing: 0, 02em;
   line-height: 1.07;
   text-align: center;
   color: #fff;
@@ -19,7 +19,7 @@ h1 {
 h2 {
   font-weight: 700;
   font-size: 36px;
-  letter-spacing: 2%;
+  letter-spacing: 0, 02em;
   text-align: center;
   color: #2e2f42;
 }
@@ -27,14 +27,14 @@ h2 {
 h3 {
   font-weight: 500;
   font-size: 20px;
-  letter-spacing: 2%;
+  letter-spacing: 0, 02em;
   color: #2e2f42;
 }
 p {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 4%;
+  letter-spacing: 0, 04em;
   color: #434455;
 }
 
@@ -43,7 +43,7 @@ p {
 }
 
 .logo-header {
-  font-family: "Ralewey", sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.17;
@@ -70,7 +70,7 @@ p {
 }
 
 .navigation .studio:hover,
-:focus {
+.navigation .studio:focus {
   color: #404bbf;
 }
 .mail.tel {
@@ -83,7 +83,7 @@ p {
   text-decoration: none;
 }
 .mail.tel:hover,
-:focus {
+.mail.tel:focus {
   color: #404bbf;
 }
 
@@ -93,6 +93,7 @@ p {
   height: 600px;
 }
 .hero-button {
+  color: #fff;
   border-radius: 4px;
   padding: 16px 32px;
   width: 169px;
@@ -106,6 +107,9 @@ p {
   gap: 10px;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background: #4d5ae5;
+}
+.hero-button:hover {
+  background-color: #404bbf;
 }
 .features {
   width: 1128px;
