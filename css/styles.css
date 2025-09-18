@@ -20,6 +20,7 @@ h2 {
   font-weight: 700;
   font-size: 36px;
   letter-spacing: 0.02em;
+  line-height: 1.1;
   text-align: center;
   color: #2e2f42;
 }
@@ -28,13 +29,14 @@ h3 {
   font-weight: 500;
   font-size: 20px;
   letter-spacing: 0.02em;
+  line-height: 1.2;
   color: #2e2f42;
 }
 p {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.04em;
+  letter-spacing: 0.02em;
   color: #434455;
 }
 
@@ -126,20 +128,34 @@ p {
 .features {
   width: 1128px;
   height: 104px;
-  display: flex;
 }
-.features-strategy,
-.features-punctuality,
-.features-diligence,
-.features-technologies {
-  width: 1128px;
+.features-header {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.features-paragraph {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+.features-list li {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 8px;
+  width: 264px;
   height: 104px;
 }
-.team {
-  width: 1440px;
-  height: 732px;
-  background: #f4f4fd;
+.features-list {
+  display: flex;
 }
+
 .team-members {
   display: flex;
 }
