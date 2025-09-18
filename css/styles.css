@@ -97,6 +97,11 @@ p {
   height: 600px;
 }
 .hero-button {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
   color: #fff;
   border-radius: 4px;
   padding: 16px 32px;
@@ -111,10 +116,12 @@ p {
   gap: 10px;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background: #4d5ae5;
+  cursor: pointer;
 }
-.hero-button:hover {
+.hero-button:hover .hero-button:focus {
   background-color: #404bbf;
 }
+
 .features {
   width: 1128px;
   height: 104px;
