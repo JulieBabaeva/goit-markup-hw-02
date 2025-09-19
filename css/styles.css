@@ -146,8 +146,11 @@ p {
 
 /*Для секції Team*/
 .team {
+  background-color: #f4f4fd;
 }
-
+.team-members {
+  background-color: #ffffff;
+}
 /*Для секції Portfolio*/
 .portfolio {
 }
