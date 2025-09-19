@@ -154,8 +154,6 @@ p {
 
 /*Для Футера*/
 .footer {
-  /*width: 1440px;
-  height: 312px;*/
   background: #2e2f42;
 }
 .logo-footer {
@@ -166,8 +164,6 @@ p {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
-  align-items: center;
-  gap: 0px;
 }
 .logo-span-footer {
   color: #f4f4fd;
