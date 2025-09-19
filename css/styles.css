@@ -47,7 +47,7 @@ p {
   gap: 0px;
 }
 
-.logo-span {
+.logo-span-header {
   color: #2e2f42;
 }
 
@@ -194,7 +194,23 @@ p {
   height: 312px;
   background: #2e2f42;
 }
-
+.logo-footer {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+  align-items: center;
+  gap: 0px;
+}
+.logo-span-footer {
+  color: #f4f4fd;
+}
+.footer-paragraph {
+  color: #f4f4fd;
+}
 a {
   text-decoration: none;
 }
