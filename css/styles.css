@@ -1,3 +1,4 @@
+/*Загальне*/
 body {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
@@ -29,6 +30,8 @@ p {
   font-weight: 400;
   font-size: 16px;
 }
+
+/*Хедер*/
 
 .header {
   background: #fff;
@@ -83,6 +86,9 @@ p {
 .address li a:focus {
   color: #404bbf;
 }
+
+/* Основна*/
+
 .hero {
   background: #2e2f42;
   width: 1440px;
@@ -95,18 +101,6 @@ p {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #fff;
-  border-radius: 4px;
-  padding: 16px 32px;
-  width: 169px;
-  height: 56px;
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-  background: #4d5ae5;
-  display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
-  flex-direction: row;
-  gap: 10px;
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background: #4d5ae5;
   cursor: pointer;
 }
@@ -114,6 +108,8 @@ p {
 .hero-button:focus {
   background-color: #404bbf;
 }
+
+/* Для заголовків h2*/
 .section-title {
   font-weight: 700;
   font-size: 36px;
@@ -123,6 +119,8 @@ p {
   color: #2e2f42;
   text-transform: capitalize;
 }
+
+/*Для заголовків h3*/
 .section-subtitle {
   font-weight: 500;
   font-size: 20px;
@@ -133,62 +131,28 @@ p {
   text-transform: capitalize;
 }
 
+/* Для абзаців p*/
+.section-paragraph {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+/*Для секції Features*/
 .features {
-  width: 1128px;
-  height: 104px;
 }
 
-.features-paragraph {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
-}
-.features-list li {
-  display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
-  flex-direction: column;
-  gap: 8px;
-  width: 264px;
-  height: 104px;
-}
-.features-list {
-  display: flex;
-}
+/*Для секції Team*/
 .team {
-  background-color: #f4f4fd;
-}
-.team-members {
-  display: flex;
 }
 
-.team-members-li {
-  border-radius: 0 0 4px 4px;
-  padding: 0px 0px 32px;
-  width: 264px;
-  height: 380px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  gap: 32px;
-  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
-    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
-  background-color: #ffffff;
-}
-.team-paragraph {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
-}
+/*Для секції Portfolio*/
 .portfolio {
-  width: 1128px;
-  height: 1134px;
 }
+
+/*Для Футера*/
 .footer {
   width: 1440px;
   height: 312px;
