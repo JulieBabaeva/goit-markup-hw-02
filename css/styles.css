@@ -64,7 +64,9 @@ p {
 .nav-link:focus {
   color: #404bbf;
 }
-
+.mail-tel {
+  font-style: normal;
+}
 .mail-tel-link {
   font-style: normal;
   font-weight: 400;
